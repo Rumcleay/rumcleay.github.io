@@ -111,12 +111,12 @@ article {
 }
 .profile h2  {
   font-size: 60px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   letter-spacing: 5px;
 }
 .profile img  {
-  margin-top: 0pc;
+  margin-top: 0px auto;
 }
 
 #col1  { float: left; margin-left: 175px; }
