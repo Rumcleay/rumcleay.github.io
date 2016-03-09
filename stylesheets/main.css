@@ -1,134 +1,116 @@
-header {
-  text-align: center;
-  background-color; white;
-  background-size: cover;
-  background-image: url("../images/graffiti.jpg");
-  height: 200px;
+/* --- NAV --- */
+.navbar {
+	background-color: rgba(32, 35, 41, 0.9);
+	font-family: 'Raleway';
+	font-size: 12px;
+	height: 35px;
+	min-height: 40px;
+}
+.navbar-brand {
+	font-size: 26px;
+	font-family: "Amatic SC", cursive;
+	font-weight: 900;
+	color: white !important;
+	padding-top: 9px;
+}
+ul.nav a  {
+	color: white !important;
+	padding-top: auto;
+	padding-top: 10px;
+}
+ul.nav a:active  {
+	color: red !important;
+}
+ul.nav a:hover  {
+	color: red !important;
+}
+ul.dropdown-menu a  {
+	color: black !important;
+	font-size: 11px;
 }
 
-/* --HEADER TEXT-- */
+li.social-icon {
+	margin-left: -8px;
+	margin-right: -8px;
+	padding-left: -8px;
+	padding-right: -8px;
+}
+.jumbotron {
+	max-height: 200px;
+	background-image: url('../images/graffiti.jpg');
+	background-size: 1300px;
+	background-attachment: scroll;
+}
+
+.headings  {
+	font-style: none;
+	color: white;
+	text-align: right;
+	font-family: "Amatic SC", cursive;
+}
+.jumbotron h1 {
+	font-size: 80px;
+	font-weight: 900;
+	line-height: 80px;
+}
+.jumbotron h2 {
+	font-family: "Amatic SC", cursive;
+	font-style: italic;
+	font-size: 50px;
+	font-weight: 900;
+	line-height: 6px;
+	margin-top: 0;
+}
+/* --- END NAV --- */
+
+/* --- CONTENT --- */
 h1  {
-  font-size: 80px;
-  font-weight: 900;
-  font-style: none;
-  text-align: right;
-  font-family: "Amatic SC", cursive;
-  color: rgba(255,255,255,1);
-  padding-bottom: 10px;
-  margin: 35px 80px 40px 0;
-  line-height: 40px;
+	font-family: 'Amatic SC', cursive;
 }
 
-h1 a  {
-  text-decoration: none;
-  color: white;
-  font-size: 80px;
-}
-.subtitle  {
-  font-size: 50px;
-}
-/* --END: HEADER TEXT-- */
-
-h2  { 
-  font-family: "Amatic SC", cursive; 
-  font-size: 40px;
-} 
-
-h3  {
-  font-family: 'Muli', sans-serif;
-  font-size: 13px;
-  margin-bottom: 5px;
-  padding: 2px 0px 2px 5px;
-  background-color: rgba(5,70,5,0.8);
-  color: white;
-}
-
-big  {
-  text-decoration: none;
-  color: black;
-  font-family: "Amatic SC", cursive; 
-  font-size: 20px;
-}
-
-img  {
-  margin: 15px auto 0px;
-}
-
-a  {
-  text-decoration: none;
-  color: rgba(5,70,5,0.8);
-  font-family: "Amatic SC", cursive; 
-  font-size: 20px;
+h2  {
+	font-family: 'Raleway';
 }
 
 p  {
-  font-family: 'Muli', sans-serif;
-  font-size: 13px;
-  text-align: justify;
+	font-family: 'Raleway';
+	font-size: 13px;
 }
 
-article {
-  max-width: 500px;
-  padding: 20px;
-  margin: 0 auto;
-}
-      
-/* --Work on link effect for .main-nav-- */
-.main-nav {
-  padding: 10px;
-  background-color: rgba(0,0,0,0.5);
-}
-.main-nav a {
-  color: white;
-  display: inline;
-  padding: 0px 15px 0px 15px;
-  font-family: 'Amatic SC', cursive;
-  font-size: 20px;
-  text-decoration: none;
+
+/* --- END FORMATTING --- */
+
+/* --- FOOTER --- */
+#page-footer {
+	background-color: rgba(32, 35, 41, 0.9);
+	color: #ddd;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	height: 100px;
 }
 
-/* --MEDIA-- */
-@media (max-width: 500px;) {
-  h1 {
-    padding: 5px;
+.btn  {
+	background-color: rgba(255, 0, 0, 0.7);
+}
+#signup  {
+	margin-top: 0px;
+}
+#credit  {
+	background: rgba(255, 0, 0, 1);
+	margin-top: 80px;
+}
+#credit a  {
+	color: rgba(235, 235, 235, 1);
+}
+.ft-text  {
+	font-family: 'Raleway';
+	font-size: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+  #credit {
+    margin-top: 20px;
   }
-  li {
-    padding: 5px;
-    display: block;
-    font-size: 10px;
-  }
 }
-
-
-/* --CONTRIBUTORS & ABOUT-- */
-.profile  {
-  border: 2px solid black;
-  display: inline;
-  margin: 50px auto;
-  padding: 0 30px;
-  max-width: 330px;
-  text-align: center;
-}
-.profile h2  {
-  font-size: 60px;
-  margin: 0 auto;
-  padding: 0;
-  letter-spacing: 5px;
-}
-.profile img  {
-  margin-top: 0px auto;
-}
-
-#col1  { float: left; margin-left: 175px; }
-#col2  { float: right; margin-right: 175px;}
-
-.social-icon  a {
-  color: black;
-}
-
-
-
-
-
-
-
