@@ -10,7 +10,7 @@
 	font-size: 26px;
 	font-family: "Amatic SC", cursive;
 	font-weight: 900;
-	color: white !important;
+	color: red !important;
 	padding-top: 9px;
 }
 ul.nav a  {
@@ -72,13 +72,44 @@ h2  {
 	font-family: 'Raleway';
 }
 
+h4  {
+
+}
+
+
 p  {
 	font-family: 'Raleway';
 	font-size: 13px;
 }
 
+#buzz  {
+	margin-bottom: 20px;
+}
 
+#buzz a  {
+	color: rgba(189, 0, 0, 1);
+}
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.thumbnail:hover {
+    background-color: rgba(229, 229, 229, .4);
+}
+
+.votes {
+    font-size: 47px;
+    color: #197BB5;
+    padding: 10px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
 /* --- END FORMATTING --- */
+
 
 /* --- FOOTER --- */
 #page-footer {
@@ -87,6 +118,8 @@ p  {
 	padding-top: 20px;
 	padding-bottom: 10px;
 	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
 	height: 100px;
 }
 
@@ -97,7 +130,7 @@ p  {
 	margin-top: 0px;
 }
 #credit  {
-	background: rgba(255, 0, 0, 1);
+	background: rgba(189, 0, 0, 1);
 	margin-top: 80px;
 }
 #credit a  {
