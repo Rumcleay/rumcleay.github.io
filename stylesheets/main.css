@@ -37,7 +37,7 @@ li.social-icon {
 }
 .jumbotron {
 	max-height: 200px;
-	background-image: url('../images/graffiti.jpg');
+	background-image: url('../visuals/graffiti.jpg');
 	background-size: 1300px;
 	background-attachment: scroll;
 }
@@ -70,10 +70,6 @@ h1  {
 
 h2  {
 	font-family: 'Raleway';
-}
-
-h4  {
-
 }
 
 
@@ -110,6 +106,39 @@ p  {
 }
 /* --- END FORMATTING --- */
 
+/* --- CONTACT --- */
+.contact  {
+	width: 350px;
+}
+
+#contact-img  {
+	width: 70%;
+	margin-bottom: 30px;
+}
+
+.contact p  {
+	text-align: justify;
+}
+
+/* --- ARTICLES --- */
+.article {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.article img {
+    width: 100%;
+}
+
+.main-media  {
+	margin-bottom: 20px;
+}
+
+.video  {
+	margin-top: 20px;
+	text-align: center;
+}
 
 /* --- FOOTER --- */
 #page-footer {
@@ -131,7 +160,7 @@ p  {
 }
 #credit  {
 	background: rgba(189, 0, 0, 1);
-	margin-top: 80px;
+	margin-top: 60px;
 }
 #credit a  {
 	color: rgba(235, 235, 235, 1);
